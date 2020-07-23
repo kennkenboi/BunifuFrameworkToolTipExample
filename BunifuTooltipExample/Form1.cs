@@ -23,7 +23,8 @@ namespace BunifuTooltipExample
             bunifuToolTip1.ClickToShowDisplayControl = true;
 
             // You can also set the ToolTip Title and/or Icon property.
-            bunifuToolTip1.SetToolTipTitle(bunifuImageButton1, "Hello there...");
+            bunifuToolTip1.SetToolTipTitle(bunifuImageButton1, "Jada Pinketh Smith");
+            bunifuToolTip1.SetToolTip(bunifuImageButton1, "Hello there... click for more details");
             bunifuToolTip1.SetToolTipIcon(bunifuImageButton1, Image.FromFile("C:\\Users\\Kenboi\\Downloads\\jada.jpg"));
         }
 
